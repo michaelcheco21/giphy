@@ -10,6 +10,7 @@ $("#search-button").click(function(){
     var searchIndex = Math.floor(Math.random() * searchTerm.length);
      
     $.ajax({
+        
         url: "https://random-word-api.herokuapp.com/word?key=UPG9HRCK&number=1",
         
         method: "GET",
